@@ -21,7 +21,7 @@ import java.util.List;
  * @since 2021-06-30
  */
 @RestController
-@RequestMapping("/study/tStudent")
+@RequestMapping("/study/stu")
 public class TStudentController {
     @Autowired
     TStudentMapper tm;
