@@ -8,10 +8,10 @@
         <version>2.5.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.lcy.demo.sys</groupId>
-    <artifactId>mybatisplus</artifactId>
+    <groupId>com.study</groupId>
+    <artifactId>oasystem</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mybatisplus</name>
+    <name>oasystem</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>

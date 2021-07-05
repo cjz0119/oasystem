@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.study.mapper.DotaHeroMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.study.entity.DotaHero">
+        <result column="hero_id" property="heroId" />
+        <result column="cn_name" property="cnName" />
+        <result column="en_name" property="enName" />
+    </resultMap>
+
+</mapper>

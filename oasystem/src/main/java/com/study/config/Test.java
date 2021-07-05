@@ -43,7 +43,7 @@ public class Test {
         //strategy.setSuperEntityClass("com.study.entity.BaseEntity");
         // strategy.setTablePrefix("t_"); // 表名前缀
         strategy.setEntityLombokModel(true); //使用lombok
-        strategy.setInclude("t_student");  // 逆向工程使用的表   如果要生成多个,这里可以传入String[]
+        strategy.setInclude("dota_league");  // 逆向工程使用的表   如果要生成多个,这里可以传入String[]
         mpg.setStrategy(strategy);
 
         //5、执行
